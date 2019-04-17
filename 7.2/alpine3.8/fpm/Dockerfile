@@ -144,6 +144,35 @@ RUN set -xe \
 		--with-libedit \
 		--with-openssl \
 		--with-zlib \
+		--with-freetype-dir \
+    --with-jpeg-dir \
+    --with-gd \
+    --with-gettext \
+    --with-iconv-dir \
+    --with-kerberos \
+    --with-libdir=lib64 \
+    --with-libxml-dir \
+    --with-mysqli \
+    --with-pcre-regex \
+    --with-pdo-mysql \
+    --with-pdo-sqlite \
+    --with-pear \
+    --with-png-dir \
+    --with-jpeg-dir \
+    --with-xmlrpc \
+    --with-xsl \
+    --enable-fpm \
+    --enable-bcmath \
+    --enable-libxml \
+    --enable-inline-optimization \
+    --enable-mbregex \
+    --enable-opcache \
+    --enable-pcntl \
+    --enable-shmop \
+    --enable-soap \
+    --enable-sockets \
+    --enable-sysvsem \
+    --enable-xml \
 		\
 # bundled pcre does not support JIT on s390x
 # https://manpages.debian.org/stretch/libpcre3-dev/pcrejit.3.en.html#AVAILABILITY_OF_JIT_SUPPORT
